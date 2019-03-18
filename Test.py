@@ -39,3 +39,5 @@ with open('002.txt', 'w') as month_file:    #提取后的数据文件
             month_file.write(' ')
         month_file.write('\n')
 
+
+
