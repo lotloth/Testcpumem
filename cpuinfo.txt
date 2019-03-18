@@ -1,0 +1,102 @@
+Load: 4.39 / 3.33 / 1.58
+CPU usage from 360487ms to 60066ms ago (2019-01-06 17:48:56.856 to 2019-01-06 17:53:57.278):
+  6.1% 1625/android.hardware.automotive.vehicle@2.0-service.dylcr: 4.2% user + 1.9% kernel / faults: 933 minor
+  3.6% 2374/surfaceflinger: 2.4% user + 1.1% kernel / faults: 743 minor
+  3.1% 4344/com.android.car: 2.8% user + 0.2% kernel / faults: 31719 minor
+  2.9% 4104/system_server: 2% user + 0.9% kernel / faults: 7002 minor 91 major
+  1.8% 4156/android.hardware.sensors@1.0-service.dylcr: 0.3% user + 1.5% kernel / faults: 37 minor
+  1.6% 1650/logd: 0.6% user + 0.9% kernel / faults: 413 minor
+  1.5% 3076/logcatd: 0.8% user + 0.7% kernel / faults: 1 minor
+  1.4% 2225/android.hardware.graphics.composer@2.1-service.renesas: 0.4% user + 1% kernel / faults: 29 minor
+  0.5% 453/kworker/0:1: 0% user + 0.5% kernel
+  0.4% 4290/com.android.systemui: 0.3% user + 0% kernel / faults: 12639 minor 21 major
+  0.3% 4733/com.android.phone: 0.2% user + 0% kernel / faults: 2342 minor 21 major
+  0.2% 2360/vehicle_monitor_service: 0% user + 0.1% kernel / faults: 70 minor
+  0.2% 1//init: 0.1% user + 0.1% kernel / faults: 465 minor
+  0.2% 983/mmcqd/0: 0% user + 0.2% kernel
+  0.1% 4523/sdcard: 0% user + 0.1% kernel / faults: 8 minor
+  0.1% 2290/android.hardware.power@1.0-service.dylcr: 0% user + 0% kernel
+  0.1% 7/rcu_preempt: 0% user + 0.1% kernel
+  0.1% 1656/servicemanager: 0% user + 0% kernel / faults: 11 minor
+  0.1% 2600/spi2: 0% user + 0.1% kernel
+  0.1% 3948/zygote64: 0% user + 0% kernel / faults: 1936 minor
+  0.1% 24/kworker/2:0: 0% user + 0.1% kernel
+  0% 72/kworker/u12:3: 0% user + 0% kernel
+  0% 6/kworker/u12:0: 0% user + 0% kernel
+  0% 45/kworker/u12:1: 0% user + 0% kernel
+  0% 66/kworker/u12:2: 0% user + 0% kernel
+  0% 982/kworker/2:2: 0% user + 0% kernel
+  0% 4483/kworker/2:3: 0% user + 0% kernel
+  0% 2081/evs_app: 0% user + 0% kernel
+  0% 1448/kworker/u12:4: 0% user + 0% kernel
+  0% 3967/netd: 0% user + 0% kernel / faults: 973 minor
+  0% 1663/hwservicemanager: 0% user + 0% kernel / faults: 253 minor
+  0% 1209/ueventd: 0% user + 0% kernel
+  0% 2651/adc-inc: 0% user + 0% kernel
+  0% 4718/android.hardware.gnss@1.0-service.dylcr: 0% user + 0% kernel
+  0% 1205/kworker/4:1: 0% user + 0% kernel
+  0% 23/ksoftirqd/2: 0% user + 0% kernel
+  0% 2892/installd: 0% user + 0% kernel / faults: 16 minor
+  0% 3945/kworker/2:1H: 0% user + 0% kernel
+  0% 2371/lmkd: 0% user + 0% kernel
+  0% 3004/vehicle.linkdevicemanager: 0% user + 0% kernel / faults: 8 minor
+  0% 1204/kworker/3:1: 0% user + 0% kernel
+  0% 1785/jbd2/mmcblk0p17: 0% user + 0% kernel
+  0% 2719/ksdioirqd/mmc1: 0% user + 0% kernel
+  0% 4762/com.android.settings: 0% user + 0% kernel / faults: 406 minor
+  0% 1966/zygote: 0% user + 0% kernel / faults: 390 minor
+  0% 8/rcu_sched: 0% user + 0% kernel
+  0% 1788/vold: 0% user + 0% kernel / faults: 30 minor
+  0% 2088/kworker/0:1H: 0% user + 0% kernel
+  0% 2475/pvr_defer_free: 0% user + 0% kernel
+  0% 4261/com.android.inputmethod.latin: 0% user + 0% kernel / faults: 399 minor
+  0% 3/ksoftirqd/0: 0% user + 0% kernel
+  0% 875/irq/191-adv7180: 0% user + 0% kernel
+  0% 1206/kworker/5:1: 0% user + 0% kernel
+  0% 3288/mdnsd: 0% user + 0% kernel
+  0% 3976/wificond: 0% user + 0% kernel / faults: 60 minor
+  0% 4716/kworker/3:1H: 0% user + 0% kernel
+  0% 17/ksoftirqd/1: 0% user + 0% kernel
+  0% 18/kworker/1:0: 0% user + 0% kernel
+  0% 22/migration/2: 0% user + 0% kernel
+  0% 28/migration/3: 0% user + 0% kernel
+  0% 34/migration/4: 0% user + 0% kernel
+  0% 40/migration/5: 0% user + 0% kernel
+  0% 854/kworker/1:1: 0% user + 0% kernel
+  0% 1037/kworker/1:1H: 0% user + 0% kernel
+  0% 2350/android.hardware.usb@1.0-service: 0% user + 0% kernel
+  0% 2358/android.hardware.wifi@1.0-service: 0% user + 0% kernel / faults: 4 minor
+  0% 2359/healthd: 0% user + 0% kernel
+  0% 2477/pvr_cacheop: 0% user + 0% kernel
+  0% 2829/sh: 0% user + 0% kernel / faults: 10 minor
+  0% 3045/vehicle.carplayservice: 0% user + 0% kernel / faults: 21 minor 1 major
+  0% 3949/audioserver: 0% user + 0% kernel
+  0% 4024/iptables-restore: 0% user + 0% kernel
+  0% 4026/ip6tables-restore: 0% user + 0% kernel
+  0% 4506/wpa_supplicant: 0% user + 0% kernel / faults: 1 minor
+ +0% 4834/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 4848/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 4964/com.android.car.hvac: 0% user + 0% kernel
+ +0% 4991/com.android.car.stream: 0% user + 0% kernel
+ +0% 5037/com.autonavi.amapauto: 0% user + 0% kernel
+ +0% 5070/com.android.support.car.lenspicker: 0% user + 0% kernel
+ +0% 5121/com.android.car.radio: 0% user + 0% kernel
+ +0% 5148/android.process.acore: 0% user + 0% kernel
+ +0% 5187/com.google.android.car.kitchensink: 0% user + 0% kernel
+ +0% 5218/com.android.keychain: 0% user + 0% kernel
+ +0% 5313/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 5315/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 5330/com.autonavi.amapauto:adiu: 0% user + 0% kernel
+ +0% 5360/android.process.media: 0% user + 0% kernel
+ +0% 5422/com.autonavi.amapauto:locationservice: 0% user + 0% kernel
+ +0% 5472/android.car.usb.handler: 0% user + 0% kernel
+ +0% 5515/com.android.car.messenger: 0% user + 0% kernel
+ +0% 5550/com.android.managedprovisioning: 0% user + 0% kernel
+ +0% 5588/com.android.onetimeinitializer: 0% user + 0% kernel
+ +0% 5633/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 5638/pvr_fence_sync_: 0% user + 0% kernel
+ +0% 5639/com.android.packageinstaller: 0% user + 0% kernel
+ +0% 5747/android.ext.services: 0% user + 0% kernel
+ +0% 5830/sh: 0% user + 0% kernel
+ +0% 5860/adbd: 0% user + 0% kernel
+6.5% TOTAL: 4.2% user + 2.1% kernel + 0.1% iowait + 0% softirq
